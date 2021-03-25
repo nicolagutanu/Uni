@@ -1,2 +1,0 @@
-E:\School\sem2\OOP\test_taskManager\x64\Debug\test_taskManager.exe
-E:\School\sem2\OOP\test_taskManager\x64\Debug\test_taskManager.pdb
