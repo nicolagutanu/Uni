@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SecondWindowController">
+   <children>
+      <VBox layoutX="2.0" layoutY="2.0" prefHeight="700.0" prefWidth="900.0">
+         <children>
+            <Label fx:id="nrPrgState_label" prefHeight="18.0" prefWidth="597.0" text="Number of Program States" textAlignment="CENTER" />
+            <TextField fx:id="nrPrgStates_textfield" />
+            <Label fx:id="exeStack_label" prefHeight="18.0" prefWidth="637.0" text="Execution Stack" textAlignment="CENTER" />
+            <ListView fx:id="exeStack_listview" prefHeight="92.0" prefWidth="914.0" />
+            <Label fx:id="symTable_label" prefHeight="18.0" prefWidth="920.0" text="Symbols Table" textAlignment="CENTER" />
+            <TableView fx:id="symTable_tableview" prefHeight="118.0" prefWidth="914.0">
+              <columns>
+                <TableColumn fx:id="symTable_variableColumn" prefWidth="436.0000305175781" text="Variable" />
+                <TableColumn fx:id="symTable_valueColumn" minWidth="0.0" prefWidth="463.1999816894531" text="Value" />
+              </columns>
+            </TableView>
+            <Label fx:id="heapTable_label" prefHeight="18.0" prefWidth="926.0" text="Heap Table" textAlignment="CENTER" />
+            <TableView fx:id="heapTable_tableview" prefHeight="122.0" prefWidth="914.0">
+              <columns>
+                <TableColumn fx:id="heapTable_addressColumn" prefWidth="438.4000244140625" text="Address" />
+                <TableColumn fx:id="heapTable_valueColumn" minWidth="0.0" prefWidth="461.60003662109375" text="Value" />
+              </columns>
+            </TableView>
+            <Label fx:id="out_label" prefHeight="18.0" prefWidth="947.0" text="Output " textAlignment="CENTER" />
+            <ListView fx:id="out_listview" prefHeight="106.0" prefWidth="914.0" />
+            <Label fx:id="fileTable_label" prefHeight="18.0" prefWidth="914.0" text="File Table" textAlignment="CENTER" />
+            <ListView fx:id="fileTable_listview" prefHeight="102.0" prefWidth="914.0" />
+            <Label fx:id="prgStateIds_label" prefHeight="18.0" prefWidth="919.0" text="Program State identifiers" textAlignment="CENTER" />
+            <ListView fx:id="prgStateIds_listview" prefHeight="115.0" prefWidth="914.0" />
+            <Button fx:id="runOneStep_button" alignment="BOTTOM_CENTER" mnemonicParsing="false" text="Run One Step" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
