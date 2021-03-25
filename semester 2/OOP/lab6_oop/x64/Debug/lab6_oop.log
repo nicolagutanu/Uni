@@ -1,0 +1,9 @@
+﻿  tests.cpp
+E:\School\sem2\OOP\lab6_oop\tests.cpp(49,2): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+E:\School\sem2\OOP\lab6_oop\tests.cpp(65,2): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+E:\School\sem2\OOP\lab6_oop\tests.cpp(81,2): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+E:\School\sem2\OOP\lab6_oop\tests.cpp(113,2): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+E:\School\sem2\OOP\lab6_oop\tests.cpp(137,2): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+E:\School\sem2\OOP\lab6_oop\tests.cpp(153,2): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+E:\School\sem2\OOP\lab6_oop\tests.cpp(168,2): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+  lab6_oop.vcxproj -> E:\School\sem2\OOP\lab6_oop\x64\Debug\lab6_oop.exe
