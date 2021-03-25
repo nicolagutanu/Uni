@@ -1,0 +1,4 @@
+﻿  MultiMap.cpp
+E:\School\sem2\DSA\MultiMap\MultiMap.cpp(22,42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\School\sem2\DSA\MultiMap\MultiMap.cpp(52,42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  lab2_dsa.vcxproj -> E:\School\sem2\DSA\lab2_dsa\x64\Debug\lab2_dsa.exe

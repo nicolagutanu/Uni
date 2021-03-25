@@ -1,0 +1,6 @@
+﻿  ExtendedTest.cpp
+E:\School\sem2\DSA\lab5_dsa _again\ExtendedTest.cpp(208,20): warning C4101: 'ex': unreferenced local variable
+E:\School\sem2\DSA\lab5_dsa _again\ExtendedTest.cpp(215,20): warning C4101: 'ex': unreferenced local variable
+  SMMIterator.cpp
+  Generating Code...
+  lab5_dsa.vcxproj -> E:\School\sem2\DSA\lab5_dsa _again\Debug\lab5_dsa.exe

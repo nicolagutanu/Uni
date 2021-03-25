@@ -1,0 +1,2 @@
+E:\School\sem2\DSA\lab2_dsa\x64\Debug\lab2_dsa.exe
+E:\School\sem2\DSA\lab2_dsa\x64\Debug\lab2_dsa.pdb

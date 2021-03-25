@@ -1,0 +1,4 @@
+E:\School\sem2\DSA\lab5_dsa\Debug\lab5_dsa.exe
+E:\School\sem2\DSA\lab5_dsa\Debug\lab5_dsa.pdb
+E:\School\sem2\DSA\lab5_dsa _again\Debug\lab5_dsa.exe
+E:\School\sem2\DSA\lab5_dsa _again\Debug\lab5_dsa.pdb
