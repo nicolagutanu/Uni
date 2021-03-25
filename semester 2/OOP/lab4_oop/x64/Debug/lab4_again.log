@@ -1,0 +1,13 @@
+﻿  repository.c
+E:\School\sem2\OOP\lab4_again\repository.c(9,9): warning C4033: 'createRepository' must return a value
+E:\School\sem2\OOP\lab4_again\repository.c(57,9): warning C4033: 'updateBotRepo' must return a value
+E:\School\sem2\OOP\lab4_again\repository.c(68,9): warning C4033: 'getRepoLength' must return a value
+E:\School\sem2\OOP\lab4_again\repository.c(75,9): warning C4033: 'getBotByPosition' must return a value
+E:\School\sem2\OOP\lab4_again\repository.c(82,9): warning C4033: 'getBots' must return a value
+E:\School\sem2\OOP\lab4_again\repository.c(148,6): warning C4101: 'bot5': unreferenced local variable
+E:\School\sem2\OOP\lab4_again\repository.c(12): warning C4715: 'createRepository': not all control paths return a value
+E:\School\sem2\OOP\lab4_again\repository.c(70): warning C4715: 'getRepoLength': not all control paths return a value
+E:\School\sem2\OOP\lab4_again\repository.c(63): warning C4715: 'updateBotRepo': not all control paths return a value
+E:\School\sem2\OOP\lab4_again\repository.c(77): warning C4715: 'getBotByPosition': not all control paths return a value
+E:\School\sem2\OOP\lab4_again\repository.c(84): warning C4715: 'getBots': not all control paths return a value
+  lab4_again.vcxproj -> E:\School\sem2\OOP\lab4_again\x64\Debug\lab4_again.exe
