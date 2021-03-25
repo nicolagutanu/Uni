@@ -1,0 +1,2 @@
+E:\School\sem2\OOP\exam\x64\Debug\exam.exe
+E:\School\sem2\OOP\exam\x64\Debug\exam.pdb

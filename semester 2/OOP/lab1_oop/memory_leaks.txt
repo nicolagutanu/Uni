@@ -1,0 +1,16 @@
+to prevent memory leaks:
+
+#define _CRTDBG_MAP_ALLOC
+#include <stdlib.h>
+#include <crtdbg.h>
+
+_CrtDumpMemoryLeaks();
+
+
+Unit tests:
+
+FunctionBeingTeste_Scenario_ExpectedBehaviour()
+FunctionBeingTeste_ProblemInput_ExpectedOutput()
+
+AddIngredient_ValidIngredient_AddToList()
+AddIngredient_ExistingIngredient_Return0()
