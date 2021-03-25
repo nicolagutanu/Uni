@@ -1,0 +1,2 @@
+E:\School\sem2\OOP\test_bills\x64\Debug\test_bills.exe
+E:\School\sem2\OOP\test_bills\x64\Debug\test_bills.pdb
