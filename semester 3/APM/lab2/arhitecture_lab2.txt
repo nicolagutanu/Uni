@@ -1,0 +1,110 @@
+1. MODEL:
+<<INTERFACE>>
+	ENTITY
+	   ^
+	   |
+	----------
+	|         |
+	CONIFERE   FOIOASE
+	
+
+2. REPOSITORY: (in memory repo)
+interfaceRepo:
+	add
+	count
+	delete
+	find
+	.........
+-use fixed sized array: entityArray
+-capacity
+-size
+->attributes until here
+
+-constructor
+-methods specified above
+
+
+3. CONTROLLER:
+-repository:interfaceRepo
+->attributes
+
+-constructor(interfaceRepo)
+-f1(int age):Entity[]
+-other methods that wrap the repo(mentioned above)
+
+
+4. VIEW:
+-controller
+->attribute
+
+-constructor: vier(controller)
+-run
+-menu: 1-add
+       2-remove
+       3-filter(condition from the pb, for me, age>=3)
+
+
+5. MAIN:
+-create: repo, controller, viwew
+-call run() method
+
+
+
+
+
+
+exceptional cases(exceptions):
+-validation issues
+-invalid entity(non existent)
+-empty repo
+-invalid index for array
+
+
+-can be placed in the src foler or create another separately
+
+
+
+
+package model;
+
+public interface Trees {
+    public void setAge(int age);
+    public int getAge();
+}
+
+class Apple implements Trees{
+    int ageA;
+    public void setAge(int age){
+        ageA=age;
+    }
+    public int getAge()
+    {
+        return ageA;
+    }
+}
+
+class Pear implements Trees{
+    int ageP;
+    public void setAge(int age){
+        ageP=age;
+    }
+    public int getAge()
+    {
+        return ageP;
+    }
+}
+
+class Cherry implements Trees{
+    int ageC;
+    public void setAge(int age){
+        ageC=age;
+    }
+    public int getAge()
+    {
+        return ageC;
+    }
+}
+
+
+
+
