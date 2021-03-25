@@ -1,0 +1,5 @@
+﻿  moc test_taskManager.h
+  main.cpp
+  test_taskManager.cpp
+  moc_test_taskManager.cpp
+  test_taskManager.vcxproj -> E:\School\sem2\OOP\test_taskManager\x64\Debug\test_taskManager.exe
