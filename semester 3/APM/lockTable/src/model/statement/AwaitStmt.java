@@ -1,0 +1,60 @@
+package model.statement;
+
+import com.sun.prism.paint.Paint;
+import javafx.util.Pair;
+import model.adt.*;
+import model.exceptions.AdtException;
+import model.exceptions.ExpException;
+import model.exceptions.MyException;
+import model.exceptions.StmtException;
+import model.type.Type;
+import model.value.IntValue;
+import model.value.Value;
+
+import java.util.List;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class AwaitStmt implements IStatement {
+    String var;
+    Lock lock=new ReentrantLock();
+
+    public AwaitStmt(String v) { var=v; }
+
+    @Override
+    public PrgState execute(PrgState state) throws StmtException, ExpException, AdtException {
+        lock.lock();
+        IDictionary<String, Value> symTable= state.getDictionary();;
+        IStack<IStatement> exeStack=state.getStack();
+        IBarrier<Integer, Pair<Integer, List<Integer>>> barrierTable=state.getBarrierTable();
+        if (symTable.isDefined(var)) {
+            IntValue foundIndex=(IntValue) symTable.lookup(var);
+            if (barrierTable.isDefined(foundIndex.getVal())) {
+                Pair<Integer,List<Integer>> foundPair= barrierTable.lookup(foundIndex.getVal());
+                int nl=foundPair.getValue().size();
+                if (foundPair.getKey()>nl) {
+                    if (foundPair.getValue().contains(state.getId())) {
+                        exeStack.push(new AwaitStmt(var));
+                    }else {
+                        foundPair.getValue().add(state.getId());
+                        exeStack.push(new AwaitStmt(var));
+                    }
+                }
+            }else
+                throw new StmtException("Index not found in barrier table");
+        }else
+            throw new StmtException("Variable not defined in symbols table");
+        lock.unlock();
+        return null;
+    }
+
+    @Override
+    public String toString() {
+        return "await("+var+")";
+    }
+
+    @Override
+    public MyDictionary<String, Type> typeCheck(MyDictionary<String, Type> typeEnv) throws MyException, AdtException {
+        return typeEnv;
+    }
+}
