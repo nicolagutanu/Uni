@@ -1,0 +1,10 @@
+D:\School\sem4\db\lab1_again\lab1_again\bin\Debug\lab1_again.exe.config
+D:\School\sem4\db\lab1_again\lab1_again\bin\Debug\lab1_again.exe
+D:\School\sem4\db\lab1_again\lab1_again\bin\Debug\lab1_again.pdb
+D:\School\sem4\db\lab1_again\lab1_again\obj\Debug\lab1_again.csprojAssemblyReference.cache
+D:\School\sem4\db\lab1_again\lab1_again\obj\Debug\lab1_again.Form1.resources
+D:\School\sem4\db\lab1_again\lab1_again\obj\Debug\lab1_again.Properties.Resources.resources
+D:\School\sem4\db\lab1_again\lab1_again\obj\Debug\lab1_again.csproj.GenerateResource.cache
+D:\School\sem4\db\lab1_again\lab1_again\obj\Debug\lab1_again.csproj.CoreCompileInputs.cache
+D:\School\sem4\db\lab1_again\lab1_again\obj\Debug\lab1_again.exe
+D:\School\sem4\db\lab1_again\lab1_again\obj\Debug\lab1_again.pdb
