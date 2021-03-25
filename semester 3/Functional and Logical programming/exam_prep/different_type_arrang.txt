@@ -1,0 +1,32 @@
+%we have a function that will generate our predictions one by
+%one:
+%math model:
+%prediction(l1l2...ln,p)=  p=l1
+%                          prediction(l2l3...ln)
+%predition(L:list, P:int)
+%flow model:(i, o)
+prediction([H|_],H).
+prediction([_|T],P):-prediction(T,P).
+
+%a function to check the condition
+%
+condition([],1).
+condition([H|T],S1):-condition(T,S),S1 is H*S.
+
+%and the big function that brings them all together:
+%T-list with possibilities for predictions
+%LR-is our result
+%Len-holds length of result as is being built
+%R:collector variable, builds the solution
+%solution_help(T,LR,Len,R)= prediction(T) U R, Len<4
+%                           LR, cond1=true and cond2=true and
+%                           Len=4
+%solution_help(T:list,LR:list,Len:int,R:list)
+% flow model(i,o,i,i).
+solution_help(_,[],K,K,P,R):-!,condition(R,S),S=:=P .
+solution_help(T,[O|LR],LEN,K,P,R):-prediction(T,O),
+    LEN1 is LEN+1,
+    solution_help(T,LR,LEN1,K,P,[O|R]).
+
+%and a wrapper function to run the whole thing
+solution(L,K,P,R):-solution_help(L,R,0,K,P,[]).

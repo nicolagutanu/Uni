@@ -1,0 +1,19 @@
+5. a. Determine the greatest common divisors of elements from a list.
+
+greatest(l1l2l3...ln)= -0, n=0
+                        -l1, n=1
+                       -gcd(l1,l2)Ugreatest(l2l3...ln),n>1
+
+gcd(a, b)= -a, a=b
+           -gcd(a-b, b), a>b
+           -gcd(a, b-a), otherwise
+
+b. Insert an element on the n-position in a list.
+p=
+e=element to be inserted
+
+add(l1l2...ln, e, p) =  -[], n = 0
+                        -l1Uadd(l2l3...ln, e, p-1), p > 1
+                        -e U l1l2...ln, p == 1
+
+}
