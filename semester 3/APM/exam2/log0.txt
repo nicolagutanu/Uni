@@ -1,0 +1,45 @@
+Program state: 
+Id: 0
+Execution stack: (v=2;print(v)) int v 
+Symbols table: 
+Heap: 
+Output: 
+File table: 
+Barrier table: 
+
+Program state: 
+Id: 0
+Execution stack: (v=2;print(v)) 
+Symbols table: v-0 
+Heap: 
+Output: 
+File table: 
+Barrier table: 
+
+Program state: 
+Id: 0
+Execution stack: print(v) v=2 
+Symbols table: v-0 
+Heap: 
+Output: 
+File table: 
+Barrier table: 
+
+Program state: 
+Id: 0
+Execution stack: print(v) 
+Symbols table: v-2 
+Heap: 
+Output: 
+File table: 
+Barrier table: 
+
+Program state: 
+Id: 0
+Execution stack: 
+Symbols table: v-2 
+Heap: 
+Output: 2 
+File table: 
+Barrier table: 
+
