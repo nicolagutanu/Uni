@@ -1,0 +1,2 @@
+E:\School\sem2\OOP\test_vegetables\x64\Debug\test_vegetables.exe
+E:\School\sem2\OOP\test_vegetables\x64\Debug\test_vegetables.pdb

@@ -1,0 +1,5 @@
+potato family|potato|fruit
+potato family|tomato|fruit
+beetroot family|spinach|leaves
+marrow family|melon|fruit
+onion family|onion|stem,root 
