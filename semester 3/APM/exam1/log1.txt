@@ -1,0 +1,3072 @@
+Program state: 
+Id: 0
+Execution stack: (int x;(int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))))))) int v 
+Symbols table: 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int x;(int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))))))) 
+Symbols table: v-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10)))))))) int x 
+Symbols table: v-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10)))))))) 
+Symbols table: v-0 x-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))))) int y 
+Symbols table: v-0 x-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10)))))) v=0 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10)))))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) repeat (fork((print(v);v=v-1));v=v+1) until v==3 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) ((fork((print(v);v=v-1));v=v+1);(while (v==3 false) (fork((print(v);v=v-1));v=v+1))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: v=v-1 print(v) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: v=v-1 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: 
+Symbols table: v--1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: v=v-1 print(v) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: v=v-1 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-3 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: v=v-1 print(v) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) 
+Symbols table: v-3 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: v=v-1 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10)))) x=1 
+Symbols table: v-3 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10)))) 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (y=3;(model.statement.NopStmt@14d4f37f;print(v*10))) model.statement.NopStmt@1e2f5c22 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (y=3;(model.statement.NopStmt@14d4f37f;print(v*10))) 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@14d4f37f;print(v*10)) y=3 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@14d4f37f;print(v*10)) 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: print(v*10) model.statement.NopStmt@14d4f37f 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: print(v*10) 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 30 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int x;(int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@3539b661;(y=3;(model.statement.NopStmt@9b212d2;print(v*10))))))))) int v 
+Symbols table: 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: int v (int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@3539b661;(y=3;(model.statement.NopStmt@9b212d2;print(v*10)))))))) int x 
+Symbols table: 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: int x (int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@3539b661;(y=3;(model.statement.NopStmt@9b212d2;print(v*10)))))))) 
+Symbols table: v-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@3539b661;(y=3;(model.statement.NopStmt@9b212d2;print(v*10)))))))) 
+Symbols table: v-0 x-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@3539b661;(y=3;(model.statement.NopStmt@9b212d2;print(v*10))))))) int y 
+Symbols table: v-0 x-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: int y (repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@3539b661;(y=3;(model.statement.NopStmt@9b212d2;print(v*10)))))) v=0 
+Symbols table: v-0 x-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=0 (repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@3539b661;(y=3;(model.statement.NopStmt@9b212d2;print(v*10)))))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@3539b661;(y=3;(model.statement.NopStmt@9b212d2;print(v*10)))))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@3539b661;(y=3;(model.statement.NopStmt@9b212d2;print(v*10))))) repeat (fork((print(v);v=v-1));v=v+1) until v==3 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: repeat (fork((print(v);v=v-1));v=v+1) until v==3 (model.statement.NopStmt@3539b661;(y=3;(model.statement.NopStmt@9b212d2;print(v*10)))) x=1 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: x=1 (model.statement.NopStmt@3539b661;(y=3;(model.statement.NopStmt@9b212d2;print(v*10)))) ((fork((print(v);v=v-1));v=v+1);(while (v==3 false) (fork((print(v);v=v-1));v=v+1))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: ((fork((print(v);v=v-1));v=v+1);(while (v==3 false) (fork((print(v);v=v-1));v=v+1))) (model.statement.NopStmt@3539b661;(y=3;(model.statement.NopStmt@9b212d2;print(v*10)))) 
+Symbols table: v-0 x-1 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@3539b661;(y=3;(model.statement.NopStmt@9b212d2;print(v*10)))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-0 x-1 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (y=3;(model.statement.NopStmt@9b212d2;print(v*10))) model.statement.NopStmt@3539b661 
+Symbols table: v-0 x-1 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: model.statement.NopStmt@3539b661 (y=3;(model.statement.NopStmt@9b212d2;print(v*10))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-0 x-1 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (y=3;(model.statement.NopStmt@9b212d2;print(v*10))) 
+Symbols table: v-0 x-1 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (y=3;(model.statement.NopStmt@9b212d2;print(v*10))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-0 x-1 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-0 x-1 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (model.statement.NopStmt@9b212d2;print(v*10)) y=3 
+Symbols table: v-0 x-1 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: v=v-1 print(v) 
+Symbols table: v-0 x-1 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: y=3 (model.statement.NopStmt@9b212d2;print(v*10)) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-1 x-1 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: v=v-1 
+Symbols table: v-0 x-1 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (model.statement.NopStmt@9b212d2;print(v*10)) 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: 
+Symbols table: v--1 x-1 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@9b212d2;print(v*10)) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) print(v*10) model.statement.NopStmt@9b212d2 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: model.statement.NopStmt@9b212d2 print(v*10) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) print(v*10) 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: print(v*10) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 10 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: v=v-1 print(v) 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 10 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 10 1 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: v=v-1 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 10 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 10 1 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: 
+Symbols table: v-0 x-1 y-3 
+Heap: 
+Output: 0 10 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 10 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 10 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 10 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 10 1 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 10 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 10 1 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: v=v-1 print(v) 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 10 1 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 10 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: v=v-1 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: v=v-1 print(v) 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-4 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: v=v-1 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-4 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-4 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-4 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-4 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-4 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 
+File table: 
+
+Program state: 
+Id: 5
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-4 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-4 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 
+File table: 
+
+Program state: 
+Id: 5
+Execution stack: v=v-1 print(v) 
+Symbols table: v-4 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 
+File table: 
+
+Program state: 
+Id: 6
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-4 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-5 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 
+File table: 
+
+Program state: 
+Id: 5
+Execution stack: v=v-1 
+Symbols table: v-4 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 
+File table: 
+
+Program state: 
+Id: 6
+Execution stack: v=v-1 print(v) 
+Symbols table: v-4 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-6 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 
+File table: 
+
+Program state: 
+Id: 5
+Execution stack: 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 
+File table: 
+
+Program state: 
+Id: 6
+Execution stack: v=v-1 
+Symbols table: v-4 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-6 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 
+File table: 
+
+Program state: 
+Id: 6
+Execution stack: 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-6 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-6 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-6 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-6 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 
+File table: 
+
+Program state: 
+Id: 7
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-6 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-6 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 
+File table: 
+
+Program state: 
+Id: 7
+Execution stack: v=v-1 print(v) 
+Symbols table: v-6 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 
+File table: 
+
+Program state: 
+Id: 8
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-6 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-7 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 
+File table: 
+
+Program state: 
+Id: 7
+Execution stack: v=v-1 
+Symbols table: v-6 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 
+File table: 
+
+Program state: 
+Id: 8
+Execution stack: v=v-1 print(v) 
+Symbols table: v-6 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-8 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 
+File table: 
+
+Program state: 
+Id: 7
+Execution stack: 
+Symbols table: v-5 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 
+File table: 
+
+Program state: 
+Id: 8
+Execution stack: v=v-1 
+Symbols table: v-6 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-8 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 
+File table: 
+
+Program state: 
+Id: 8
+Execution stack: 
+Symbols table: v-5 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-8 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-8 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-8 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-8 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 
+File table: 
+
+Program state: 
+Id: 9
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-8 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-8 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 
+File table: 
+
+Program state: 
+Id: 9
+Execution stack: v=v-1 print(v) 
+Symbols table: v-8 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 
+File table: 
+
+Program state: 
+Id: 10
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-8 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-9 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 
+File table: 
+
+Program state: 
+Id: 9
+Execution stack: v=v-1 
+Symbols table: v-8 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 
+File table: 
+
+Program state: 
+Id: 10
+Execution stack: v=v-1 print(v) 
+Symbols table: v-8 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-10 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 
+File table: 
+
+Program state: 
+Id: 9
+Execution stack: 
+Symbols table: v-7 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 
+File table: 
+
+Program state: 
+Id: 10
+Execution stack: v=v-1 
+Symbols table: v-8 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-10 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 
+File table: 
+
+Program state: 
+Id: 10
+Execution stack: 
+Symbols table: v-7 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-10 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-10 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-10 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-10 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 
+File table: 
+
+Program state: 
+Id: 11
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-10 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-10 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 
+File table: 
+
+Program state: 
+Id: 11
+Execution stack: v=v-1 print(v) 
+Symbols table: v-10 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 
+File table: 
+
+Program state: 
+Id: 12
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-10 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-11 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 
+File table: 
+
+Program state: 
+Id: 11
+Execution stack: v=v-1 
+Symbols table: v-10 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 
+File table: 
+
+Program state: 
+Id: 12
+Execution stack: v=v-1 print(v) 
+Symbols table: v-10 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-12 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 
+File table: 
+
+Program state: 
+Id: 11
+Execution stack: 
+Symbols table: v-9 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 
+File table: 
+
+Program state: 
+Id: 12
+Execution stack: v=v-1 
+Symbols table: v-10 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-12 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 
+File table: 
+
+Program state: 
+Id: 12
+Execution stack: 
+Symbols table: v-9 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-12 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-12 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-12 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-12 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 
+File table: 
+
+Program state: 
+Id: 13
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-12 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-12 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 
+File table: 
+
+Program state: 
+Id: 13
+Execution stack: v=v-1 print(v) 
+Symbols table: v-12 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 
+File table: 
+
+Program state: 
+Id: 14
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-12 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-13 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 
+File table: 
+
+Program state: 
+Id: 13
+Execution stack: v=v-1 
+Symbols table: v-12 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 
+File table: 
+
+Program state: 
+Id: 14
+Execution stack: v=v-1 print(v) 
+Symbols table: v-12 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-14 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 
+File table: 
+
+Program state: 
+Id: 13
+Execution stack: 
+Symbols table: v-11 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 
+File table: 
+
+Program state: 
+Id: 14
+Execution stack: v=v-1 
+Symbols table: v-12 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-14 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 
+File table: 
+
+Program state: 
+Id: 14
+Execution stack: 
+Symbols table: v-11 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-14 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-14 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-14 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: fork((print(v);v=v-1)) v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-14 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 
+File table: 
+
+Program state: 
+Id: 15
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-14 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-14 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 
+File table: 
+
+Program state: 
+Id: 15
+Execution stack: v=v-1 print(v) 
+Symbols table: v-14 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 
+File table: 
+
+Program state: 
+Id: 16
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-14 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: v=v+1 (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-15 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 14 
+File table: 
+
+Program state: 
+Id: 15
+Execution stack: v=v-1 
+Symbols table: v-14 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 14 
+File table: 
+
+Program state: 
+Id: 16
+Execution stack: v=v-1 print(v) 
+Symbols table: v-14 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 14 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-16 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 14 14 
+File table: 
+
+Program state: 
+Id: 15
+Execution stack: 
+Symbols table: v-13 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 14 14 
+File table: 
+
+Program state: 
+Id: 16
+Execution stack: v=v-1 
+Symbols table: v-14 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 14 14 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-16 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 14 14 
+File table: 
+
+Program state: 
+Id: 16
+Execution stack: 
+Symbols table: v-13 x-1 y-3 
+Heap: 
+Output: 0 10 1 2 2 4 4 6 6 8 8 10 10 12 12 14 14 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int x;(int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))))))) int v 
+Symbols table: 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int x;(int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))))))) 
+Symbols table: v-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10)))))))) int x 
+Symbols table: v-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10)))))))) 
+Symbols table: v-0 x-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))))) int y 
+Symbols table: v-0 x-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10)))))) v=0 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10)))))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) repeat (fork((print(v);v=v-1));v=v+1) until v==3 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) ((fork((print(v);v=v-1));v=v+1);(while (v==3 false) (fork((print(v);v=v-1));v=v+1))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: v=v-1 print(v) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: v=v-1 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: 
+Symbols table: v--1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: v=v-1 print(v) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: v=v-1 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-3 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: v=v-1 print(v) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10))))) 
+Symbols table: v-3 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: v=v-1 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10)))) x=1 
+Symbols table: v-3 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@1e2f5c22;(y=3;(model.statement.NopStmt@14d4f37f;print(v*10)))) 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (y=3;(model.statement.NopStmt@14d4f37f;print(v*10))) model.statement.NopStmt@1e2f5c22 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (y=3;(model.statement.NopStmt@14d4f37f;print(v*10))) 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@14d4f37f;print(v*10)) y=3 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@14d4f37f;print(v*10)) 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: print(v*10) model.statement.NopStmt@14d4f37f 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: print(v*10) 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 30 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int x;(int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))))))) int v 
+Symbols table: 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int x;(int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))))))) 
+Symbols table: v-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10)))))))) int x 
+Symbols table: v-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10)))))))) 
+Symbols table: v-0 x-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))))) int y 
+Symbols table: v-0 x-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10)))))) v=0 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10)))))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) repeat (fork((print(v);v=v-1));v=v+1) until v==3 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) ((fork((print(v);v=v-1));v=v+1);(while (v==3 false) (fork((print(v);v=v-1));v=v+1))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: v=v-1 print(v) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: v=v-1 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: 
+Symbols table: v--1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: v=v-1 print(v) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: v=v-1 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-3 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: v=v-1 print(v) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))))) 
+Symbols table: v-3 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: v=v-1 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10)))) x=1 
+Symbols table: v-3 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@7e131e49;(y=3;(model.statement.NopStmt@1e2f5c22;print(v*10)))) 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))) model.statement.NopStmt@7e131e49 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (y=3;(model.statement.NopStmt@1e2f5c22;print(v*10))) 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@1e2f5c22;print(v*10)) y=3 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@1e2f5c22;print(v*10)) 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: print(v*10) model.statement.NopStmt@1e2f5c22 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: print(v*10) 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 30 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int x;(int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))))))) int v 
+Symbols table: 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int x;(int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))))))) 
+Symbols table: v-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10)))))))) int x 
+Symbols table: v-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10)))))))) 
+Symbols table: v-0 x-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))))) int y 
+Symbols table: v-0 x-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10)))))) v=0 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10)))))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) repeat (fork((print(v);v=v-1));v=v+1) until v==3 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) ((fork((print(v);v=v-1));v=v+1);(while (v==3 false) (fork((print(v);v=v-1));v=v+1))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: v=v-1 print(v) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: v=v-1 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 1
+Execution stack: 
+Symbols table: v--1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: v=v-1 print(v) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: v=v-1 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 2
+Execution stack: 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-3 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: v=v-1 print(v) 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) 
+Symbols table: v-3 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: v=v-1 
+Symbols table: v-2 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10)))) x=1 
+Symbols table: v-3 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 3
+Execution stack: 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10)))) 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (y=3;(model.statement.NopStmt@4607f146;print(v*10))) model.statement.NopStmt@22de7a61 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (y=3;(model.statement.NopStmt@4607f146;print(v*10))) 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@4607f146;print(v*10)) y=3 
+Symbols table: v-3 x-1 y-0 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: (model.statement.NopStmt@4607f146;print(v*10)) 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: print(v*10) model.statement.NopStmt@4607f146 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: print(v*10) 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 
+File table: 
+
+Program state: 
+Id: 0
+Execution stack: 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 1 2 30 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (int x;(int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))))))) int v 
+Symbols table: 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (int x;(int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))))))) 
+Symbols table: v-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10)))))))) int x 
+Symbols table: v-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (int y;(v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10)))))))) 
+Symbols table: v-0 x-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))))) int y 
+Symbols table: v-0 x-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (v=0;(repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (repeat (fork((print(v);v=v-1));v=v+1) until v==3;(x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10)))))) v=0 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: v=0 (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) repeat (fork((print(v);v=v-1));v=v+1) until v==3 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: v=0 (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) ((fork((print(v);v=v-1));v=v+1);(while (v==3 false) (fork((print(v);v=v-1));v=v+1))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: v=0 (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: v=0 (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: v=0 (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 5
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: v=0 (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 5
+Execution stack: v=v-1 print(v) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: v=0 (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 5
+Execution stack: v=v-1 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (x=1;(model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10))))) 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 5
+Execution stack: 
+Symbols table: v--1 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10)))) x=1 
+Symbols table: v-0 x-0 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (model.statement.NopStmt@22de7a61;(y=3;(model.statement.NopStmt@4607f146;print(v*10)))) 
+Symbols table: v-0 x-1 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (y=3;(model.statement.NopStmt@4607f146;print(v*10))) model.statement.NopStmt@22de7a61 
+Symbols table: v-0 x-1 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (y=3;(model.statement.NopStmt@4607f146;print(v*10))) 
+Symbols table: v-0 x-1 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (model.statement.NopStmt@4607f146;print(v*10)) y=3 
+Symbols table: v-0 x-1 y-0 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (model.statement.NopStmt@4607f146;print(v*10)) 
+Symbols table: v-0 x-1 y-3 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) print(v*10) model.statement.NopStmt@4607f146 
+Symbols table: v-0 x-1 y-3 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) print(v*10) 
+Symbols table: v-0 x-1 y-3 
+Heap: 
+Output: 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-0 x-1 y-3 
+Heap: 
+Output: 0 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-0 x-1 y-3 
+Heap: 
+Output: 0 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-0 x-1 y-3 
+Heap: 
+Output: 0 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-0 x-1 y-3 
+Heap: 
+Output: 0 0 
+File table: 
+
+Program state: 
+Id: 6
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-0 x-1 y-3 
+Heap: 
+Output: 0 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 0 
+File table: 
+
+Program state: 
+Id: 6
+Execution stack: v=v-1 print(v) 
+Symbols table: v-0 x-1 y-3 
+Heap: 
+Output: 0 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 0 0 
+File table: 
+
+Program state: 
+Id: 6
+Execution stack: v=v-1 
+Symbols table: v-0 x-1 y-3 
+Heap: 
+Output: 0 0 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 0 0 
+File table: 
+
+Program state: 
+Id: 6
+Execution stack: 
+Symbols table: v--1 x-1 y-3 
+Heap: 
+Output: 0 0 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 0 0 
+File table: 
+
+Program state: 
+Id: 7
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 0 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 0 0 
+File table: 
+
+Program state: 
+Id: 7
+Execution stack: v=v-1 print(v) 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 0 0 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 
+File table: 
+
+Program state: 
+Id: 7
+Execution stack: v=v-1 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 
+File table: 
+
+Program state: 
+Id: 7
+Execution stack: 
+Symbols table: v-0 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) v=v+1 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 
+File table: 
+
+Program state: 
+Id: 8
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) (while (v==3 false) (fork((print(v);v=v-1));v=v+1)) 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 
+File table: 
+
+Program state: 
+Id: 8
+Execution stack: v=v-1 print(v) 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: (fork((print(v);v=v-1));v=v+1) 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 2 
+File table: 
+
+Program state: 
+Id: 8
+Execution stack: v=v-1 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 2 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: v=v+1 fork((print(v);v=v-1)) 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 2 
+File table: 
+
+Program state: 
+Id: 8
+Execution stack: 
+Symbols table: v-1 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 2 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: v=v+1 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 2 
+File table: 
+
+Program state: 
+Id: 9
+Execution stack: (print(v);v=v-1) 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 2 
+File table: 
+
+Program state: 
+Id: 4
+Execution stack: 
+Symbols table: v-4 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 2 
+File table: 
+
+Program state: 
+Id: 9
+Execution stack: v=v-1 print(v) 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 2 
+File table: 
+
+Program state: 
+Id: 9
+Execution stack: v=v-1 
+Symbols table: v-3 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 2 3 
+File table: 
+
+Program state: 
+Id: 9
+Execution stack: 
+Symbols table: v-2 x-1 y-3 
+Heap: 
+Output: 0 0 0 1 2 3 
+File table: 
+
