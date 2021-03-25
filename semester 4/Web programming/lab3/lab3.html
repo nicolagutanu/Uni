@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Python.org</title>
+	<style>
+		body {
+			padding: 0;
+			margin:0;
+			border:0;
+			outline:0;
+		}
+	
+		.menu {
+  			width: 100%;
+  			background-color: #1e2933;
+  			overflow: auto;
+			
+		}		
+
+		.menu a {
+  			float: left;
+  			padding: 11px 10px;
+  			color: #a6a6a6;
+  			text-decoration: none;
+  			font-size: 16px;
+  			width: 12.5%;
+  			text-align: center;
+			border: 1px solid #11171d;
+			border-right: none;
+			border-top: 3px solid transparent;
+			font-family: SourceSansProRegular, Arial, sans-serif;
+			box-sizing: border-box;
+		}
+		
+		.image {
+			height: 70px;
+			width: 240px;
+			margin-top: 30px;
+			margin-left: 200px;
+			margin-bottom: 0px;
+			display: inline-block;
+		}
+
+		.donate {
+			display: inline-block;
+			width: 60px;
+			height: 15px;
+  			background-color: #ffdf76;
+			border-radius: 6px;
+			text-align: center;
+			padding: 8px 10px;
+			font-family: SourceSansProRegular, Arial, sans-serif;
+			font-weight: normal;
+			color: #4d4d4d;
+			position: absolute;
+			top: 90px;
+			right: 570px;
+		}
+	
+		.last-big {
+			display: inline-block;
+			position: absolute;
+			top: 75px;
+			right: 150px;
+		}
+		
+		.last {
+			background-color: #1e2933;	
+			border-radius: 6px;
+		}
+		
+		.search {
+			width: 250px;
+			height: 30px;
+  			background-color: #fff;
+			text-align: left;
+			margin: auto;
+		}
+
+		.go {
+			width: 40px;
+			height: 30px;
+  			background-color: #3776ab;
+			border-radius: 6px;
+			border: 1px solid #2b5b84;
+			text-align: center;
+			margin: auto;
+			margin-left: 10px;
+			margin-right: 5px;
+			padding-top: 10px;
+		}
+
+		.menu-sec {
+			list-style: none;
+  			background-color: #3470A2;
+  			overflow: hidden;
+			text-align: center;
+			width: 1200px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 0;
+			border-radius: 8px;
+		}
+	
+		.menu-sec li {
+			float: left;
+		}
+		
+		.menu-sec a {
+			display: block;
+  			padding: 20px 30px;
+  			color: #fff;
+  			text-decoration: solid;
+  			font-size: 16px;
+  			text-align: center;
+			border: 0.5px solid #737373;
+			border-right: none;
+			font-family: SourceSansProRegular, Arial, sans-serif;
+		}
+
+		.writing {
+ 			width: 70%;
+			padding: 0;
+			outline:0;
+			margin-top: 0;
+			margin-left: auto;
+			margin-right: auto;
+			border: 0;
+			text-align: left;
+		}
+
+		.code {
+			width: 50%;
+			padding-top: 5px;
+			padding-right: 20px;
+			padding-left: 20px;
+			padding-bottom: 30px;
+			background-color: #1E2933;
+		}
+
+		.code p {
+			font-size: 16px;
+			line-height: 0.6;
+			font-weight: normal;
+			font-family: Consolas,'Lucida Console','Liberation Mono','DejaVu Sans Mono','Bitstream Vera Sans Mono','Courier New',monospace,sans-serif;
+		}
+
+		.square {
+  			width: 30px;
+			height: 35px;
+  			background-color: #ffdf76;
+			border-radius: 8px;
+			text-align: center;
+			padding-top: 15px;
+			padding-right: 10px;
+			padding-left: 10px;
+			font-family: Consolas,'Lucida Console','Liberation Mono','DejaVu Sans Mono','Bitstream Vera Sans Mono','Courier New',monospace,sans-serif;
+			font-weight: normal;
+			position: absolute;
+			top: 250px;
+			right: 790px;	
+		}
+
+		.code-spec {
+			width: 50%;
+			padding-top: 0px;
+			padding-right: 20px;
+			padding-left: 40px;
+			padding-bottom: 30px;
+			background-color: #1c3b56;
+		}
+
+		.code-spec p {
+			font-family: 'SourceSansProRegular', 'Arial', sans-serif;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 0.6;
+		}
+
+		.number-menu {
+			text-align: center;
+		}
+
+		.number-menu li {
+			display: inline;
+		}
+
+		.number-menu li a {
+			width: 20px;
+			height: 10px;
+  			background-color: #244e71;
+			color: #a6a6a6;
+			border-radius: 8px;
+			text-align: center;
+			text-decoration: none;
+			font-family: 'SourceSansProRegular', 'Arial', sans-serif;
+			padding-top: 8px;
+			padding-bottom: 8px;
+			padding-right: 14px;
+			padding-left: 14px;
+			margin: 2px;
+			border: 1px solid #3776ab;
+		}
+		
+		.python {
+			text-align: center;
+		}
+
+		.python p {
+			color: #caccce;
+			font-size: 24px;
+			font-family: 'SourceSansProRegular', 'Arial', sans-serif;
+			font-weight: normal;
+			line-height: 0.6;
+		}
+
+		.membership {
+			width: 1000px;
+			height: 50px;
+  			background-color: #ffdf76;
+			border-radius: 16px;
+			text-align: center;
+			margin-top: 10px;
+			margin-right: auto;
+			margin-left: auto;
+			padding-top: 25px;
+		}
+
+		.membership span {
+			font-size: 16px;
+			font-family: 'SourceSansProRegular', 'Arial', sans-serif;
+			color: #664e04;
+		}
+
+		.renew {
+			text-decoration: none;
+			width: 160px;
+			height: 80px;
+			padding: 10px 10px;
+  			background-color: #d9d9d9;
+			border-radius: 6px;
+			border: 1px solid #006dad;
+			color: #4d4d4d;
+		}
+	</style>
+</head>
+<body>
+<main style="background-color: #1E415F;">
+	<div class="menu">
+  		<a href="" style="color: #1E2933;">whatever</a> 
+  		<a href="" style="border-top: 3px solid #3776AB">Python</a> 
+  		<a href="" style="border-top: 3px solid #78797A">PSF</a> 
+  		<a href="" style="border-top: 3px solid #FFD343">Docs</a>
+		<a href="" style="border-top: 3px solid #82B043">PyPI</a> 
+  		<a href="" style="border-top: 3px solid #A06BA7">Jobs</a> 
+  		<a href="" style="border-top: 3px solid #B55863;">Community</a> 
+  		<a href="" style="color: #1E2933; ">whatever</a>
+	</div>
+	<div >
+		<img class="image" src="py.png" alt="python logo">
+		<div class="donate">Donate</div>
+		<div class="last-big">
+			<table class="last">
+				<tr>
+				<th style="padding-left: 10px;">
+					<div class="search"><p style="margin: auto; padding-top: 5px; color: #bbbbbb; font-size: 16px; font-weight: normal; font-family: 'SourceSansProRegular', 'Arial', sans-serif;">Search</p></div>
+				</th>
+				<th>
+					<div class="go"><p style="margin: auto; color: #e6e8ea; font-size: 16px; font-weight: normal; font-family: 'SourceSansProRegular', 'Arial', sans-serif;">GO</p></div>
+				</th>
+				<th style="padding-right: 10px; padding-left: 10px; border-left: 1px solid black;">
+					<p style="color: #bbbbbb; font-size: 16px; font-weight: normal; font-family: 'SourceSansProRegular', 'Arial', sans-serif;">Socialize</p>
+				</th>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<ul class="menu-sec">
+  		<li><a href="" style="color: #3470A2; border-left: none;">whatever</a></li> 
+  		<li><a href="">About</a></li> 
+  		<li><a href="">Downloads</a></li> 
+  		<li><a href="">Documentation</a></li>
+		<li><a href="">Community</a></li> 
+  		<li><a href="">Success Stories</a></li> 
+  		<li><a href="">News</a></li>
+		<li><a href="">Events</a></li> 
+  		<li><a href="" style="color: #3470A2;">whatever</a></li>
+	</ul>
+	<table class="writing">
+  		<tr>
+    		<th class="code">
+			<p style="color: #666666;"># Python 3: Fibonacci series up to n</p>
+			<p style="color: #11a611;">>>> def fib(n):</p>
+			<p style="color: #11a611; text-indent: 36px;">>>>     a, b = 0, 1</p>
+			<p style="color: #11a611; text-indent: 36px;">>>>     while a < n:</p>
+			<p style="color: #11a611; text-indent: 66px;">>>>         print(a, end=' ')</p>
+			<p style="color: #11a611; text-indent: 66px;">>>>         a, b = b, a+b</p>
+			<p style="color: #11a611; text-indent: 36px;">>>>     print()</p>
+			<p style="color: #11a611;">>>> fib(1000)</p>
+			<p style="color: #fff;">0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987</p>
+			<div class="square">>_</div>
+		</th>
+    		<th class="code-spec">
+			<p style="color: #ffd343; font-size: 21px; font-family: 'SourceSansProBold', 'Arial', sans-serif; font-weight: bold;">Functions Defined</p>
+			<p style="color: #e6e8ea;">The core of extensible programming is defining functions.</p>
+			<p style="color: #e6e8ea;">Python allows mandatory and optional arguments, keyword</p>
+			<p style="color: #e6e8ea;">arguments, and even arbitrary argument lists. <span style="color: #ffd343; text-decoration-line: underline; text-underline-offset: 2px;"> More about </span></p>
+			<p style="color: #ffd343; text-decoration-line: underline; text-underline-offset: 2px;">defining functions in Python 3</p>
+			<br><br><br><br>
+			<div class="number-menu">
+				<ul>
+  					<li><a href="">1</a></li>
+  					<li><a href="">2</a></li>
+  					<li><a href="">3</a></li>
+  					<li><a href="">4</a></li>
+					<li><a href="">5</a></li>
+				</ul>
+			</div>
+		</th>
+  		</tr>
+	</table>
+	<div class="python">
+		<p>Python is a programming language that lets you work quickly</p>
+		<p>and integrate systems more effectively. <span style="color: #ffd343; text-decoration-line: underline;">>>></span> <span style="color: #ffd343; text-decoration-line: underline;">Learn More</span></p>
+	</div>
+	<br>
+</main>
+<footer style="background-color: #fff;">
+	<div class="membership">
+		<span>PSF March Membership Drive - renew today ✏️ !
+			<a  class="renew" href="">PSF March 2021 Membership Drive</a> 
+		</span>
+	</div>
+</footer>
+</body>
+</html> 
