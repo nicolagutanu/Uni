@@ -1,0 +1,54 @@
+Using the 1k graph:
+1 - Get number of vertices():
+The number of vertices is:  1000
+
+2 - Parse all vertices():
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25,..., 999]
+
+3 - Is edge():
+Input your edge: 4 938
+Edge doesn't exist 
+
+4- Get the in degree and out degree of a vertex():
+Please input your vertex: 56
+The in degree of the vertex is:  3
+The out degree of the vertex is:  6
+
+5 - Parse outbound edges():
+Input a vertex: 56
+[22, 74, 149, 246, 871, 925]
+
+6 - Parse inbound edges():
+Input your vertex: 56
+[92, 301, 629]
+
+7 - Change cost of an edge():
+Input the edge and cost: 0 154 100
+The cost was changed! 
+
+8 - Add an edge():
+Input the edge and cost: 90 100 94
+Edge added! 
+
+9 - Add a vertex():
+Input your vertex: 1000
+Vertex added!
+
+10 - Remove an edge():
+Input your edge: 978 512
+Edge removed! 
+
+11 - Remove a vertex():
+Input your vertex: 4
+Vertex removed! 
+
+Input your vertex: 90
+Vertex removed! 
+
+12 - Save changes():
+
+
+13 - File graph():
+
+
+14 - Random graph():

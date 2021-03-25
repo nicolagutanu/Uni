@@ -1,0 +1,19 @@
+For graph1k.txt file:
+	-from 1 to 100:
+	The cost of the minimum walk is: 141
+	1 (cost: 9 )->5 (cost: 27 )->487 (cost: 25 )->175 (cost: 21 )->714 (cost: 24 )->799 (cost: 25 )->222 (cost: 8 )->561 (cost: 2 )->100
+	-from 100 to 1:
+	The cost of the minimum walk is: 196
+	100 (cost: 56 )->259 (cost: 59 )->229 (cost: 25 )->641 (cost: 1 )->538 (cost: 35 )->854 (cost: 20 )->1
+
+For graph10k.txt file:
+	-from 1 to 100:
+	The cost of the minimum walk is: 344
+	1 (cost: 12 )->7317 (cost: 42 )->460 (cost: 27 )->6010 (cost: 5 )->5295 (cost: 11 )->4560 (cost: 24 )->5513 (cost: 20 )->8467 (cost: 5 )->3517 (cost: 5 )->99 (cost: 5 )->9159 (cost: 2 )->6840 (cost: 60 )->5177 (cost: 5 )->7133 (cost: 43 )->288 (cost: 78 )->100
+	-from 100 to 1:
+	The cost of the minimum walk is: 238
+	100 (cost: 23 )->4442 (cost: 58 )->3980 (cost: 33 )->1974 (cost: 2 )->407 (cost: 32 )->4489 (cost: 19 )->5162 (cost: 14 )->2008 (cost: 4 )->3631 (cost: 11 )->2305 (cost: 39 )->8336 (cost: 3 )->1
+
+For graph100k.txt file:
+	For this file, I wainted around 30 minutes for it to be read and still wasn't done so I exited the program.
+		
