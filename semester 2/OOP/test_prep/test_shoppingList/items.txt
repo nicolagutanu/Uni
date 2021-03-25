@@ -1,6 +1,0 @@
-drinks,orange juice,2
-drinks,soda,5
-meat,chicken,1
-dairy,cheese,10
-drinks,water,10
-dairy,milk,2
