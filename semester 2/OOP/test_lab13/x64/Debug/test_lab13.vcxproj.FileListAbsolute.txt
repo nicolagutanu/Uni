@@ -1,0 +1,2 @@
+E:\School\sem2\OOP\test_lab13\x64\Debug\test_lab13.exe
+E:\School\sem2\OOP\test_lab13\x64\Debug\test_lab13.pdb

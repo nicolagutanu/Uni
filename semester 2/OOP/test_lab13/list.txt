@@ -1,0 +1,5 @@
+Allergy|Stollanite|mild hallucinations,fever
+Cancer|BlaBla|pain
+Apendix|Apendices|pain,vomiting
+Cough|Flu|sore throat
+Cold|Cold|sneezing
