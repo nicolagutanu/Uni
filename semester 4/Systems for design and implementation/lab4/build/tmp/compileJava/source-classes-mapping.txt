@@ -1,0 +1,74 @@
+domain/validators/MovieValidator.java
+ domain.validators.MovieValidator
+domain/Movie.java
+ domain.Movie
+domain/Ticket.java
+ domain.Ticket
+domain/validators/Validator.java
+ domain.validators.Validator
+service/ServiceTicket.java
+ service.ServiceTicket
+domain/Genre.java
+ domain.Genre
+repository/InMemoryRepositoryGenre.java
+ repository.InMemoryRepositoryGenre
+repository/InMemoryRepositoryTicket.java
+ repository.InMemoryRepositoryTicket
+domain/Catalog.java
+ domain.Catalog
+domain/validators/MovieException.java
+ domain.validators.MovieException
+repository/Repository.java
+ repository.Repository
+domain/validators/CatalogValidator.java
+ domain.validators.CatalogValidator
+repository/InMemoryRepositoryCatalog.java
+ repository.InMemoryRepositoryCatalog
+domain/validators/ValidatorException.java
+ domain.validators.ValidatorException
+domain/BaseEntity.java
+ domain.BaseEntity
+domain/Cinema.java
+ domain.Cinema
+repository/InMemoryRepositoryMovie.java
+ repository.InMemoryRepositoryMovie
+domain/validators/GenreValidator.java
+ domain.validators.GenreValidator
+domain/validators/CinemaValidator.java
+ domain.validators.CinemaValidator
+domain/validators/TicketValidator.java
+ domain.validators.TicketValidator
+service/ServiceCatalog.java
+ service.ServiceCatalog
+service/ServiceGenre.java
+ service.ServiceGenre
+repository/InMemoryRepositoryCinema.java
+ repository.InMemoryRepositoryCinema
+service/ServiceCinema.java
+ service.ServiceCinema
+repository/db/DBRepositoryGenre.java
+ repository.db.DBRepositoryGenre
+repository/db/DBRepositoryTicket.java
+ repository.db.DBRepositoryTicket
+repository/file/FileRepositoryGenre.java
+ repository.file.FileRepositoryGenre
+repository/file/FileRepositoryMovie.java
+ repository.file.FileRepositoryMovie
+repository/db/DBRepositoryMovie.java
+ repository.db.DBRepositoryMovie
+repository/file/FileRepositoryCinema.java
+ repository.file.FileRepositoryCinema
+Main.java
+ Main
+service/ServiceMovie.java
+ service.ServiceMovie
+repository/file/FileRepositoryTicket.java
+ repository.file.FileRepositoryTicket
+ui/UI.java
+ ui.UI
+repository/file/FileRepositoryCatalog.java
+ repository.file.FileRepositoryCatalog
+repository/db/DBRepositoryCatalog.java
+ repository.db.DBRepositoryCatalog
+repository/db/DBRepositoryCinema.java
+ repository.db.DBRepositoryCinema

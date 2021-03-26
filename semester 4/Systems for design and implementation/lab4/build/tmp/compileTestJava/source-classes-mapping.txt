@@ -1,0 +1,22 @@
+repository/TestRepositoryGenre.java
+ repository.TestRepositoryGenre
+domain/TestGenre.java
+ domain.TestGenre
+repository/TestRepositoryCatalog.java
+ repository.TestRepositoryCatalog
+domain/TestMovie.java
+ domain.TestMovie
+domain/TestCinema.java
+ domain.TestCinema
+repository/TestRepositoryCinema.java
+ repository.TestRepositoryCinema
+repository/TestRepositoryMovie.java
+ repository.TestRepositoryMovie
+domain/TestCatalog.java
+ domain.TestCatalog
+domain/TestTicket.java
+ domain.TestTicket
+repository/TestRepositoryTicket.java
+ repository.TestRepositoryTicket
+service/TestServiceMovie.java
+ service.TestServiceMovie
