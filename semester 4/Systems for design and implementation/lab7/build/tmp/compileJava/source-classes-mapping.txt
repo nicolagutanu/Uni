@@ -1,0 +1,54 @@
+ro/ubb/springjpa/config/JPAConfig.java
+ ro.ubb.springjpa.config.JPAConfig
+ro/ubb/springjpa/model/Movie.java
+ ro.ubb.springjpa.model.Movie
+ro/ubb/springjpa/model/BaseEntity.java
+ ro.ubb.springjpa.model.BaseEntity
+ro/ubb/springjpa/config/GeneralConfig.java
+ ro.ubb.springjpa.config.GeneralConfig
+ro/ubb/springjpa/repository/MovieRepository.java
+ ro.ubb.springjpa.repository.MovieRepository
+ro/ubb/springjpa/repository/GeneralRepository.java
+ ro.ubb.springjpa.repository.GeneralRepository
+ro/ubb/springjpa/repository/GenreRepository.java
+ ro.ubb.springjpa.repository.GenreRepository
+ro/ubb/springjpa/config/AppLocalConfig.java
+ ro.ubb.springjpa.config.AppLocalConfig
+ro/ubb/springjpa/model/Genre.java
+ ro.ubb.springjpa.model.Genre
+ro/ubb/springjpa/repository/CinemaRepository.java
+ ro.ubb.springjpa.repository.CinemaRepository
+ro/ubb/springjpa/model/Ticket.java
+ ro.ubb.springjpa.model.Ticket
+ro/ubb/springjpa/service/TicketService.java
+ ro.ubb.springjpa.service.TicketService
+ro/ubb/springjpa/service/GenreService.java
+ ro.ubb.springjpa.service.GenreService
+ro/ubb/springjpa/service/CatalogServiceImpl.java
+ ro.ubb.springjpa.service.CatalogServiceImpl
+ro/ubb/springjpa/model/Catalog.java
+ ro.ubb.springjpa.model.Catalog
+ro/ubb/springjpa/repository/CatalogRepository.java
+ ro.ubb.springjpa.repository.CatalogRepository
+ro/ubb/springjpa/model/Cinema.java
+ ro.ubb.springjpa.model.Cinema
+ro/ubb/springjpa/service/CinemaServiceImpl.java
+ ro.ubb.springjpa.service.CinemaServiceImpl
+ro/ubb/springjpa/service/CatalogService.java
+ ro.ubb.springjpa.service.CatalogService
+ro/ubb/springjpa/service/CinemaService.java
+ ro.ubb.springjpa.service.CinemaService
+ro/ubb/springjpa/service/GenreServiceImpl.java
+ ro.ubb.springjpa.service.GenreServiceImpl
+ro/ubb/springjpa/service/TicketServiceImpl.java
+ ro.ubb.springjpa.service.TicketServiceImpl
+ro/ubb/springjpa/repository/TicketRepository.java
+ ro.ubb.springjpa.repository.TicketRepository
+ro/ubb/springjpa/service/MovieServiceImpl.java
+ ro.ubb.springjpa.service.MovieServiceImpl
+ro/ubb/springjpa/service/MovieService.java
+ ro.ubb.springjpa.service.MovieService
+ro/ubb/springjpa/Main.java
+ ro.ubb.springjpa.Main
+ro/ubb/springjpa/ui/Console.java
+ ro.ubb.springjpa.ui.Console

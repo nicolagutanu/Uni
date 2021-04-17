@@ -1,0 +1,285 @@
+2021-04-14T11:54:01,194 ERROR [main]: HikariPool                           - HikariPool-1 - Exception during pool initialization. 
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:514) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:141) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.Driver.makeConnection(Driver.java:454) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.Driver.connect(Driver.java:256) ~[postgresql-42.2.5.jar:42.2.5]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:459) [HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:533) [HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:114) [HikariCP-2.7.7.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81) [HikariCP-2.7.7.jar:?]
+	at ro.ubb.springjpa.config.JPAConfig.dataSource(JPAConfig.java:57) [main/:?]
+	at ro.ubb.springjpa.config.JPAConfig$$EnhancerBySpringCGLIB$$ce8724b9.CGLIB$dataSource$1(<generated>) [main/:?]
+	at ro.ubb.springjpa.config.JPAConfig$$EnhancerBySpringCGLIB$$ce8724b9$$FastClassBySpringCGLIB$$be12c178.invoke(<generated>) [main/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) [spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at ro.ubb.springjpa.config.JPAConfig$$EnhancerBySpringCGLIB$$ce8724b9.dataSource(<generated>) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:394) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:366) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at ro.ubb.springjpa.config.JPAConfig$$EnhancerBySpringCGLIB$$ce8724b9.dataSource(<generated>) [main/:?]
+	at ro.ubb.springjpa.config.JPAConfig.entityManagerFactory(JPAConfig.java:71) [main/:?]
+	at ro.ubb.springjpa.config.JPAConfig$$EnhancerBySpringCGLIB$$ce8724b9.CGLIB$entityManagerFactory$3(<generated>) [main/:?]
+	at ro.ubb.springjpa.config.JPAConfig$$EnhancerBySpringCGLIB$$ce8724b9$$FastClassBySpringCGLIB$$be12c178.invoke(<generated>) [main/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) [spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at ro.ubb.springjpa.config.JPAConfig$$EnhancerBySpringCGLIB$$ce8724b9.entityManagerFactory(<generated>) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:367) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:110) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:662) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:479) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:312) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:131) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1681) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1433) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) [spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:99) [spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at ro.ubb.springjpa.Main.main(Main.java:13) [main/:?]
+2021-04-14T11:54:01,219 WARN  [main]: AnnotationConfigApplicationContext   - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentServiceImpl': Unsatisfied dependency expressed through field 'studentRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentRepository': Cannot create inner bean '(inner bean)#5c1bd44c' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#5c1bd44c': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in ro.ubb.springjpa.config.JPAConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.persistence.EntityManagerFactory]: Factory method 'entityManagerFactory' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in ro.ubb.springjpa.config.JPAConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: FATAL: password authentication failed for user "postgres" 
+2021-04-14T12:23:22,961 WARN  [main]: SqlExceptionHelper                   - SQL Error: 0, SQLState: 23505 
+2021-04-14T12:23:22,965 ERROR [main]: SqlExceptionHelper                   - ERROR: duplicate key value violates unique constraint "movie_pkey"
+  Detail: Key (id)=(1) already exists. 
+2021-04-14T12:25:58,400 WARN  [main]: SqlExceptionHelper                   - SQL Error: 0, SQLState: 23505 
+2021-04-14T12:25:58,402 ERROR [main]: SqlExceptionHelper                   - ERROR: duplicate key value violates unique constraint "movie_pkey"
+  Detail: Key (id)=(2) already exists. 
+2021-04-14T12:27:30,812 TRACE [main]: MovieServiceImpl                     - getAllMovies --- method entered 
+2021-04-14T12:27:30,920 TRACE [main]: MovieServiceImpl                     - getAllMovies: result=[3 s1 1.0
+] 
+2021-04-14T12:27:30,921 TRACE [main]: MovieServiceImpl                     - getAllMovies --- method entered 
+2021-04-14T12:27:30,924 TRACE [main]: MovieServiceImpl                     - getAllMovies: result=[3 s1 1.0
+] 
+2021-04-14T12:27:30,925 TRACE [main]: MovieServiceImpl                     - updateMovie - method entered: movie=3 s1 9.0
+ 
+2021-04-14T12:27:30,933 DEBUG [main]: MovieServiceImpl                     - updateMovie - updated: s=3 s1 9.0
+ 
+2021-04-14T12:27:30,933 TRACE [main]: MovieServiceImpl                     - updateMovie - method finished 
+2021-04-14T12:27:30,937 TRACE [main]: MovieServiceImpl                     - getAllMovies --- method entered 
+2021-04-14T12:27:30,940 TRACE [main]: MovieServiceImpl                     - getAllMovies: result=[3 s1 9.0
+] 
+2021-04-14T12:27:30,951 TRACE [main]: MovieServiceImpl                     - getAllMovies --- method entered 
+2021-04-14T12:27:30,953 TRACE [main]: MovieServiceImpl                     - getAllMovies: result=[] 
+2021-04-14T12:28:27,607 TRACE [main]: MovieServiceImpl                     - getAllMovies --- method entered 
+2021-04-14T12:28:27,765 TRACE [main]: MovieServiceImpl                     - getAllMovies: result=[4 s1 1.0
+] 
+2021-04-14T12:28:27,766 TRACE [main]: MovieServiceImpl                     - getAllMovies --- method entered 
+2021-04-14T12:28:27,770 TRACE [main]: MovieServiceImpl                     - getAllMovies: result=[4 s1 1.0
+] 
+2021-04-14T12:28:27,771 TRACE [main]: MovieServiceImpl                     - updateMovie - method entered: movie=4 s1 9.0
+ 
+2021-04-14T12:28:27,780 DEBUG [main]: MovieServiceImpl                     - updateMovie - updated: s=4 s1 9.0
+ 
+2021-04-14T12:28:27,780 TRACE [main]: MovieServiceImpl                     - updateMovie - method finished 
+2021-04-14T12:28:27,787 TRACE [main]: MovieServiceImpl                     - getAllMovies --- method entered 
+2021-04-14T12:28:27,792 TRACE [main]: MovieServiceImpl                     - getAllMovies: result=[4 s1 9.0
+] 
+2021-04-14T13:00:57,348 TRACE [main]: MovieServiceImpl                     - getAllMovies --- method entered 
+2021-04-14T13:00:57,463 TRACE [main]: MovieServiceImpl                     - getAllMovies: result=[5 titanic 9.0
+] 
+2021-04-14T13:01:38,722 TRACE [main]: MovieServiceImpl                     - getAllMovies --- method entered 
+2021-04-14T13:01:38,724 TRACE [main]: MovieServiceImpl                     - getAllMovies: result=[5 titanic 9.0
+, 6 Hunger Games 8.0
+] 
+2021-04-14T13:02:08,001 TRACE [main]: MovieServiceImpl                     - updateMovie - method entered: movie=5 Titanic 9.2
+ 
+2021-04-14T13:02:08,021 DEBUG [main]: MovieServiceImpl                     - updateMovie - updated: s=5 Titanic 9.2
+ 
+2021-04-14T13:02:08,021 TRACE [main]: MovieServiceImpl                     - updateMovie - method finished 
+2021-04-14T13:02:20,114 TRACE [main]: MovieServiceImpl                     - getAllMovies --- method entered 
+2021-04-14T13:02:20,157 TRACE [main]: MovieServiceImpl                     - getAllMovies: result=[6 Hunger Games 8.0
+, 5 Titanic 9.2
+] 
+2021-04-14T13:02:38,291 TRACE [main]: MovieServiceImpl                     - getAllMovies --- method entered 
+2021-04-14T13:02:38,294 TRACE [main]: MovieServiceImpl                     - getAllMovies: result=[6 Hunger Games 8.0
+] 
+2021-04-14T13:20:51,961 TRACE [main]: CinemaServiceImpl                    - getAllCinemas --- method entered 
+2021-04-14T13:20:52,063 TRACE [main]: CinemaServiceImpl                    - getAllCinemas: result=[7 1 1
+] 
+2021-04-14T13:21:49,535 TRACE [main]: CinemaServiceImpl                    - updateCinema - method entered: cinema=7 AAAA 12
+ 
+2021-04-14T13:21:49,555 DEBUG [main]: CinemaServiceImpl                    - updateCinema - updated: s=7 AAAA 12
+ 
+2021-04-14T13:21:49,555 TRACE [main]: CinemaServiceImpl                    - updateCinema - method finished 
+2021-04-14T13:21:52,566 TRACE [main]: CinemaServiceImpl                    - getAllCinemas --- method entered 
+2021-04-14T13:21:52,569 TRACE [main]: CinemaServiceImpl                    - getAllCinemas: result=[7 AAAA 12
+] 
+2021-04-14T13:22:04,685 TRACE [main]: CinemaServiceImpl                    - getAllCinemas --- method entered 
+2021-04-14T13:22:04,689 TRACE [main]: CinemaServiceImpl                    - getAllCinemas: result=[] 
+2021-04-14T13:42:10,419 TRACE [main]: GenreServiceImpl                     - getAllGenre --- method entered 
+2021-04-14T13:42:10,532 TRACE [main]: GenreServiceImpl                     - getAllGenres: result=[8 aaa
+] 
+2021-04-14T13:42:27,567 TRACE [main]: GenreServiceImpl                     - updateGenre - method entered: genre=8 bbbb
+ 
+2021-04-14T13:42:27,595 DEBUG [main]: GenreServiceImpl                     - updateGenre - updated: s=8 bbbb
+ 
+2021-04-14T13:42:27,595 TRACE [main]: GenreServiceImpl                     - updateGenre - method finished 
+2021-04-14T13:42:32,617 TRACE [main]: GenreServiceImpl                     - getAllGenre --- method entered 
+2021-04-14T13:42:32,624 TRACE [main]: GenreServiceImpl                     - getAllGenres: result=[8 aaa
+] 
+2021-04-14T13:46:51,868 TRACE [main]: GenreServiceImpl                     - updateGenre - method entered: genre=8 bbbb
+ 
+2021-04-14T13:47:06,719 DEBUG [main]: GenreServiceImpl                     - updateGenre - updated: s=8 bbbb
+ 
+2021-04-14T13:47:16,180 TRACE [main]: GenreServiceImpl                     - updateGenre - method finished 
+2021-04-14T13:49:34,029 TRACE [main]: GenreServiceImpl                     - getAllGenre --- method entered 
+2021-04-14T13:49:34,121 TRACE [main]: GenreServiceImpl                     - getAllGenres: result=[] 
+2021-04-14T13:50:30,123 TRACE [main]: GenreServiceImpl                     - getAllGenre --- method entered 
+2021-04-14T13:50:30,227 TRACE [main]: GenreServiceImpl                     - getAllGenres: result=[9 aaaa
+] 
+2021-04-14T13:50:39,215 TRACE [main]: GenreServiceImpl                     - updateGenre - method entered: genre=9 bbbb
+ 
+2021-04-14T13:50:39,225 DEBUG [main]: GenreServiceImpl                     - updateGenre - updated: s=9 bbbb
+ 
+2021-04-14T13:50:39,225 TRACE [main]: GenreServiceImpl                     - updateGenre - method finished 
+2021-04-14T13:50:43,261 TRACE [main]: GenreServiceImpl                     - getAllGenre --- method entered 
+2021-04-14T13:50:43,266 TRACE [main]: GenreServiceImpl                     - getAllGenres: result=[9 bbbb
+] 
+2021-04-14T14:05:44,928 TRACE [main]: GenreServiceImpl                     - getAllGenre --- method entered 
+2021-04-14T14:05:45,063 TRACE [main]: GenreServiceImpl                     - getAllGenres: result=[9 bbbb
+, 12 x
+, 13 y
+] 
+2021-04-14T14:05:52,988 TRACE [main]: MovieServiceImpl                     - getAllMovies --- method entered 
+2021-04-14T14:05:53,006 TRACE [main]: MovieServiceImpl                     - getAllMovies: result=[6 Hunger Games 8.0
+, 10 aaaa 1.0
+, 11 bbbb 2.0
+] 
+2021-04-14T14:06:11,160 TRACE [main]: CatalogServiceImpl                   - getAllCatalog --- method entered 
+2021-04-14T14:06:11,172 TRACE [main]: CatalogServiceImpl                   - getAllCatalog: result=[14 6 9
+] 
+2021-04-14T14:06:42,470 TRACE [main]: CatalogServiceImpl                   - updateCatalog - method entered: catalog=14 6 12
+ 
+2021-04-14T14:06:42,489 DEBUG [main]: CatalogServiceImpl                   - updateCatalog - updated: s=14 6 12
+ 
+2021-04-14T14:06:42,489 TRACE [main]: CatalogServiceImpl                   - updateCatalog - method finished 
+2021-04-14T14:06:45,491 TRACE [main]: GenreServiceImpl                     - getAllGenre --- method entered 
+2021-04-14T14:06:45,494 TRACE [main]: GenreServiceImpl                     - getAllGenres: result=[9 bbbb
+, 12 x
+, 13 y
+] 
+2021-04-14T14:06:52,543 TRACE [main]: CatalogServiceImpl                   - getAllCatalog --- method entered 
+2021-04-14T14:06:52,550 TRACE [main]: CatalogServiceImpl                   - getAllCatalog: result=[14 6 12
+] 
+2021-04-14T14:07:12,756 TRACE [main]: CatalogServiceImpl                   - getAllCatalog --- method entered 
+2021-04-14T14:07:12,759 TRACE [main]: CatalogServiceImpl                   - getAllCatalog: result=[] 
+2021-04-14T14:23:07,469 TRACE [main]: MovieServiceImpl                     - getAllMovies --- method entered 
+2021-04-14T14:23:07,605 TRACE [main]: MovieServiceImpl                     - getAllMovies: result=[6 Hunger Games 8.0
+, 10 aaaa 1.0
+, 11 bbbb 2.0
+] 
+2021-04-14T14:23:32,716 TRACE [main]: CinemaServiceImpl                    - getAllCinemas --- method entered 
+2021-04-14T14:23:32,721 TRACE [main]: CinemaServiceImpl                    - getAllCinemas: result=[] 
+2021-04-14T14:24:02,997 TRACE [main]: CinemaServiceImpl                    - getAllCinemas --- method entered 
+2021-04-14T14:24:03,004 TRACE [main]: CinemaServiceImpl                    - getAllCinemas: result=[15 ttt 10
+, 16 rrr 30
+] 
+2021-04-14T14:24:37,323 TRACE [main]: TicketServiceImpl                    - getAllTickets --- method entered 
+2021-04-14T14:24:37,341 TRACE [main]: TicketServiceImpl                    - getAllTickets: result=[17 6 16 45.0] 
+2021-04-14T14:25:03,562 TRACE [main]: TicketServiceImpl                    - getAllTickets --- method entered 
+2021-04-14T14:25:03,565 TRACE [main]: TicketServiceImpl                    - getAllTickets: result=[17 6 16 45.0] 
+2021-04-14T14:28:35,351 TRACE [main]: TicketServiceImpl                    - updateTicket - method entered: ticket=17 6 15 20.0 
+2021-04-14T14:28:35,380 DEBUG [main]: TicketServiceImpl                    - updateTicket - updated: s=17 6 15 20.0 
+2021-04-14T14:28:35,381 TRACE [main]: TicketServiceImpl                    - updateTicket - method finished 
+2021-04-14T14:28:39,363 TRACE [main]: TicketServiceImpl                    - getAllTickets --- method entered 
+2021-04-14T14:28:39,465 TRACE [main]: TicketServiceImpl                    - getAllTickets: result=[17 6 15 20.0] 
+2021-04-14T14:28:53,499 TRACE [main]: TicketServiceImpl                    - getAllTickets --- method entered 
+2021-04-14T14:28:53,504 TRACE [main]: TicketServiceImpl                    - getAllTickets: result=[] 
+2021-04-14T14:35:39,306 WARN  [main]: SqlExceptionHelper                   - SQL Error: 0, SQLState: 23503 
+2021-04-14T14:35:39,307 ERROR [main]: SqlExceptionHelper                   - ERROR: insert or update on table "ticket" violates foreign key constraint "ticket_idmovie_fkey"
+  Detail: Key (idmovie)=(9) is not present in table "movie". 
+2021-04-14T14:35:45,324 TRACE [main]: CatalogServiceImpl                   - getAllCatalog --- method entered 
+2021-04-14T14:35:45,418 TRACE [main]: CatalogServiceImpl                   - getAllCatalog: result=[18 6 9
+, 19 10 12
+] 
+2021-04-14T14:35:45,429 TRACE [main]: TicketServiceImpl                    - getAllTickets --- method entered 
+2021-04-14T14:35:45,439 TRACE [main]: TicketServiceImpl                    - getAllTickets: result=[20 6 15 15.0] 
+2021-04-14T14:35:54,413 TRACE [main]: MovieServiceImpl                     - getAllMovies --- method entered 
+2021-04-14T14:35:54,427 TRACE [main]: MovieServiceImpl                     - getAllMovies: result=[10 aaaa 1.0
+, 11 bbbb 2.0
+] 
+2021-04-14T14:36:01,487 TRACE [main]: CatalogServiceImpl                   - getAllCatalog --- method entered 
+2021-04-14T14:36:01,490 TRACE [main]: CatalogServiceImpl                   - getAllCatalog: result=[19 10 12
+] 
+2021-04-14T14:36:10,567 TRACE [main]: TicketServiceImpl                    - getAllTickets --- method entered 
+2021-04-14T14:36:10,574 TRACE [main]: TicketServiceImpl                    - getAllTickets: result=[] 
+2021-04-14T14:39:33,312 TRACE [main]: CinemaServiceImpl                    - getAllCinemas --- method entered 
+2021-04-14T14:39:33,411 TRACE [main]: CinemaServiceImpl                    - getAllCinemas: result=[15 ttt 10
+, 16 rrr 30
+] 
+2021-04-14T14:39:39,376 TRACE [main]: CatalogServiceImpl                   - getAllCatalog --- method entered 
+2021-04-14T14:39:39,393 TRACE [main]: CatalogServiceImpl                   - getAllCatalog: result=[19 10 12
+] 
+2021-04-14T14:39:52,502 TRACE [main]: GenreServiceImpl                     - getAllGenre --- method entered 
+2021-04-14T14:39:52,507 TRACE [main]: GenreServiceImpl                     - getAllGenres: result=[9 bbbb
+, 12 x
+, 13 y
+] 
+2021-04-14T14:40:06,646 TRACE [main]: CatalogServiceImpl                   - getAllCatalog --- method entered 
+2021-04-14T14:40:06,649 TRACE [main]: CatalogServiceImpl                   - getAllCatalog: result=[19 10 12
+] 
+2021-04-14T14:40:16,720 TRACE [main]: GenreServiceImpl                     - getAllGenre --- method entered 
+2021-04-14T14:40:16,726 TRACE [main]: GenreServiceImpl                     - getAllGenres: result=[9 bbbb
+, 13 y
+] 
+2021-04-14T14:40:24,787 TRACE [main]: CatalogServiceImpl                   - getAllCatalog --- method entered 
+2021-04-14T14:40:24,789 TRACE [main]: CatalogServiceImpl                   - getAllCatalog: result=[] 
