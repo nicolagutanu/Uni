@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="lab5_css.css">
+    <script src=jquery-3.6.0.min.js></script>
+    <title>Title</title>
+</head>
+<body>
+<div class="scroller">
+        <ul class="slider">
+            <li><img class="slide" src="p1.jpg"/></li>
+            <li><img class="slide" src="p2.jfif"/></li>
+            <li><img class="slide" src="p3.jpg"/></li>
+            <li><img class="slide" src="p4.jpg"/></li>
+            <li><img class="slide" src="p5.jpg"/></li>
+            <li><img class="slide" src="p6.jpg"/></li>
+            <li><img class="slide" src="p7.jpg"/></li>
+            <li><img class="slide" src="p8.jpg"/></li>
+            <li><img class="slide" src="p9.jpg"/></li>
+        </ul>
+</div>
+<script type="text/javascript">
+    $(function (){
+       $("img").click(function (){
+           var img = $(this).attr("src");
+           var appear_image = "<div class='appear_image_div' onclick='closeImage()'></div>"
+           appear_image = appear_image.concat("<img class='appear_image' src='"+img+"' onclick='closeImage()'/>");
+           clearInterval(i);
+           $('body').append(appear_image);
+       }) ;
+    });
+    function closeImage() {
+        $('.appear_image_div').remove();
+        $('.appear_image').remove();
+        var i = setInterval(function(){ tick () }, 4000);
+    }
+</script>
+<script type="text/javascript">
+    var i = setInterval(function(){ tick () }, 4000);
+    function tick(){
+        $('.slider li:first').animate({'opacity':0}, 200, function () {
+            $(this).appendTo($('.slider')).css('opacity', 1); });
+    }
+</script>
+</body>
+</html>
