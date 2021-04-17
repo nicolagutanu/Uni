@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src=jquery-3.6.0.min.js></script>
+    <link rel="stylesheet" href="page2_css.css">
+</head>
+<body>
+<div id="bigMenu">
+    <form style="padding-top: 10px;">
+        <label for="id">ID:</label><br>
+        <input id="id" type="text" name="id"><br>
+        <label for="author">Author:</label><br>
+        <input type="text" id="author" name="author"><br>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="type">Type:</label><br>
+        <select id="type" name="type">
+            <option value="nothing">-</option>
+            <option value="Dessert">Dessert</option>
+            <option value="Meat">Meat Lovers</option>
+            <option value="Pasta">Pasta</option>
+            <option value="Vegetarian">Vegetarian</option>
+        </select><br>
+        <label for="desc">Description:</label><br>
+        <input type="text" id="desc" name="desc"><br>
+        <input style="margin-bottom: 0;" id="submitButton" type="button" value="Add Recipe" onclick="loadResponse()">
+    </form>
+    <div id="response"></div>
+</div>
+<script>
+    function loadResponse() {
+        var data = "id="+document.getElementById("id").value+"&author="+document.getElementById("author").value+"&name="+document.getElementById("name").value+"&type="+document.getElementById("type").value+"&desc="+document.getElementById("desc").value;
+
+        $.ajax({
+            type: "POST",
+            url: "page2_php.php",
+            data: data,
+            success: function (resp) {
+                document.getElementById("response").innerHTML = resp;
+            }
+        });
+    }
+</script>
+</body>
+</html>

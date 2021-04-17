@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src=jquery-3.6.0.min.js></script>
+  <link rel="stylesheet" href="page4_css.css">
+</head>
+<body>
+<div id="bigMenu">
+  <form>
+    <label for="id">ID:</label><br>
+    <input id="id" type="text" name="id"><br>
+    <input id="submitButton" type="button" value="Delete Recipe" onclick="loadResponse()">
+  </form>
+  <div id="response"></div>
+</div>
+<script>
+  function loadResponse() {
+    var data = "id="+document.getElementById("id").value;
+    $.ajax({
+      type: "POST",
+      url: "page4_php.php",
+      data: data,
+      success: function (resp) {
+        document.getElementById("response").innerHTML = resp;
+      }
+    });
+  }
+</script>
+</body>
+</html>

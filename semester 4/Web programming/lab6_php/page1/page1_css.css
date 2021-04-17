@@ -1,0 +1,22 @@
+body {
+  background-color: antiquewhite;
+}
+
+#bigMenu {
+  margin: 160px auto;
+  background-color: white;
+  border: 2px solid black;
+  width: 400px;
+  height: 400px;
+}
+
+p {
+  text-align: center;
+  font-size: 50px;
+}
+
+input {
+  display: block;
+  margin: 20px auto 20px auto;
+  font-size: 20px;
+}
