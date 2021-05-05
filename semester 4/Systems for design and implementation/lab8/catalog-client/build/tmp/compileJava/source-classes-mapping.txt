@@ -1,0 +1,6 @@
+ro/ubb/catalog/client/ClientApp.java
+ ro.ubb.catalog.client.ClientApp
+ro/ubb/catalog/client/config/ClientConfig.java
+ ro.ubb.catalog.client.config.ClientConfig
+ro/ubb/catalog/client/ui/ClientConsole.java
+ ro.ubb.catalog.client.ui.ClientConsole
