@@ -1,0 +1,8 @@
+<div id="bigMenu">
+  <form>
+    <label for="id">ID:</label><br>
+    <input id="id" type="text" name="id" #id><br>
+    <input id="submitButton" type="button" value="Delete Recipe" (click)="DeleteRecipe(id.value); id.value=''">
+  </form>
+  <div class="errorMessage" *ngIf="errorMessage">{{errorMessage}}</div>
+</div>

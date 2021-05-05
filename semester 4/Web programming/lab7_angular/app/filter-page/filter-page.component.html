@@ -1,0 +1,28 @@
+<div id="bigMenu">
+  <form onsubmit="return false">
+    <label for="type">Type:</label><br>
+    <select id="type" name="type" #type (change)="getRecipeByType(type.value)">
+      <option value="nothing">-</option>
+      <option value="Dessert">Dessert</option>
+      <option value="Meat">Meat Lovers</option>
+      <option value="Pasta">Pasta</option>
+      <option value="Vegetarian">Vegetarian</option>
+    </select><br>
+  </form>
+  <table class="recipes">
+    <tr>
+      <th>ID</th>
+      <th>Author</th>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+    <tr *ngFor="let recipe of recipes">
+      <td>{{recipe.id}}</td>
+      <td>{{recipe.author}}</td>
+      <td>{{recipe.name}}</td>
+      <td>{{recipe.type}}</td>
+      <td>{{recipe.desc}}</td>
+    </tr>
+  </table>
+</div>
