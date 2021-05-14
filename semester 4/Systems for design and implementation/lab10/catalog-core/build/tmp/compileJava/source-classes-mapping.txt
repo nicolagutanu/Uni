@@ -1,0 +1,49 @@
+ro/ubb/catalog/core/model/Genre.java
+ ro.ubb.catalog.core.model.Genre
+ro/ubb/catalog/core/service/MovieServiceImpl.java
+ ro.ubb.catalog.core.service.MovieServiceImpl
+ro/ubb/catalog/core/model/Movie.java
+ ro.ubb.catalog.core.model.Movie
+ro/ubb/catalog/core/service/CatalogServiceImpl.java
+ ro.ubb.catalog.core.service.CatalogServiceImpl
+ro/ubb/catalog/core/service/MovieService.java
+ ro.ubb.catalog.core.service.MovieService
+ro/ubb/catalog/core/repository/CatalogRepository.java
+ ro.ubb.catalog.core.repository.CatalogRepository
+ro/ubb/catalog/core/model/Cinema.java
+ ro.ubb.catalog.core.model.Cinema
+ro/ubb/catalog/core/service/TicketServiceImpl.java
+ ro.ubb.catalog.core.service.TicketServiceImpl
+ro/ubb/catalog/core/config/JPAConfig.java
+ ro.ubb.catalog.core.config.JPAConfig
+ro/ubb/catalog/core/model/Ticket.java
+ ro.ubb.catalog.core.model.Ticket
+ro/ubb/catalog/core/repository/GenreRepository.java
+ ro.ubb.catalog.core.repository.GenreRepository
+ro/ubb/catalog/core/service/TicketService.java
+ ro.ubb.catalog.core.service.TicketService
+ro/ubb/catalog/core/repository/MyCatalogRepository.java
+ ro.ubb.catalog.core.repository.MyCatalogRepository
+ro/ubb/catalog/core/service/CatalogService.java
+ ro.ubb.catalog.core.service.CatalogService
+ro/ubb/catalog/core/model/BaseEntity.java
+ ro.ubb.catalog.core.model.BaseEntity
+ro/ubb/catalog/core/repository/MovieRepository.java
+ ro.ubb.catalog.core.repository.MovieRepository
+ro/ubb/catalog/core/config/CacheConfig.java
+ ro.ubb.catalog.core.config.CacheConfig
+ ro.ubb.catalog.core.config.CacheConfig$CustomRemovalListener
+ro/ubb/catalog/core/repository/TicketRepository.java
+ ro.ubb.catalog.core.repository.TicketRepository
+ro/ubb/catalog/core/model/Catalog.java
+ ro.ubb.catalog.core.model.Catalog
+ro/ubb/catalog/core/service/GenreService.java
+ ro.ubb.catalog.core.service.GenreService
+ro/ubb/catalog/core/service/GenreServiceImpl.java
+ ro.ubb.catalog.core.service.GenreServiceImpl
+ro/ubb/catalog/core/service/CinemaService.java
+ ro.ubb.catalog.core.service.CinemaService
+ro/ubb/catalog/core/service/CinemaServiceImpl.java
+ ro.ubb.catalog.core.service.CinemaServiceImpl
+ro/ubb/catalog/core/repository/CinemaRepository.java
+ ro.ubb.catalog.core.repository.CinemaRepository
