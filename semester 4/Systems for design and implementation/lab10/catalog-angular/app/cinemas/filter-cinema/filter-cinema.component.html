@@ -1,0 +1,31 @@
+<div id="bigMenu">
+  <form style="padding-top: 10px;" [formGroup]="cinemaForm">
+    <label for="seats">Number Of Seats:</label><br>
+    <input type="text" id="seats" class="form-control" formControlName="seats" required><br>
+
+    <div *ngIf="seats.invalid && (seats.dirty || seats.touched)"
+         class="alert alert-danger">
+      <div class="error" *ngIf="seats.errors.required">
+        Number of seats is required.
+      </div>
+      <div class="error" *ngIf="seats.errors.min">
+        Number of seats must be greater than 0.
+      </div>
+    </div>
+
+    <input style="margin-bottom: 0;" id="submitButton" type="button" value="Filter Cinemas" (click)="filterCinemas(seats.value)">
+  </form>
+
+  <table class="cinemas">
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Number of Seats</th>
+    </tr>
+    <tr *ngFor="let cinema of filteredCinemas">
+      <td>{{cinema.id}}</td>
+      <td>{{cinema.name}}</td>
+      <td>{{cinema.nrOfSeats}}</td>
+    </tr>
+  </table>
+</div>

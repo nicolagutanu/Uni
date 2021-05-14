@@ -1,0 +1,32 @@
+body {
+  background-color: #f2e6ff;
+}
+
+#bigMenu {
+  margin: 160px auto;
+  background-color: #e6ccff;
+  border: 2px solid black;
+  width: 350px;
+  height: 350px;
+  margin-bottom: 300px;
+}
+
+#submitButton {
+  margin-left: 130px;
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  height: 150px;
+  width: 300px;
+  margin-top: 40px;
+}
+
+th, td {
+  border: 2px solid black;
+  font-size: 16px;
+  background-color: white;
+}

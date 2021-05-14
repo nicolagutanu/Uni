@@ -1,0 +1,15 @@
+<div id="bigMenu">
+  <input style="margin-bottom: 0;" id="submitButton" type="button" value="Sort Cinemas" (click)="sortCinemas()">
+  <table class="cinemas">
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Number of Seats</th>
+    </tr>
+    <tr *ngFor="let cinema of cinemas">
+      <td>{{cinema.id}}</td>
+      <td>{{cinema.name}}</td>
+      <td>{{cinema.nrOfSeats}}</td>
+    </tr>
+  </table>
+</div>

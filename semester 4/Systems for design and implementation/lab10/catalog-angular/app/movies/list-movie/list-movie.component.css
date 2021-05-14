@@ -1,0 +1,28 @@
+body {
+  background-color: #f2e6ff;
+}
+
+#bigMenu {
+  margin: 160px auto;
+  background-color: #e6ccff;
+  border: 2px solid black;
+  width: 350px;
+  height: 350px;
+  margin-bottom: 300px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  height: 150px;
+  width: 300px;
+  margin-top: 70px;
+}
+
+th, td {
+  border: 2px solid black;
+  font-size: 16px;
+  background-color: white;
+}
+
+

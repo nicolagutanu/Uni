@@ -1,0 +1,26 @@
+body {
+  background-color: #f2e6ff;
+}
+
+#bigMenu {
+  margin: 160px auto;
+  background-color: #e6ccff;
+  border: 2px solid black;
+  width: 400px;
+  height: 400px;
+}
+
+a {
+  border: 1px solid black;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 6px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+nav {
+  margin: 20px;
+  text-align: center;
+}

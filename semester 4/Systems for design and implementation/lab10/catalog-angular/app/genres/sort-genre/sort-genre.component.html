@@ -1,0 +1,13 @@
+<div id="bigMenu">
+  <input style="margin-bottom: 0;" id="submitButton" type="button" value="Sort Genres" (click)="sortGenres()">
+  <table class="genres">
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+    </tr>
+    <tr *ngFor="let genre of genres">
+      <td>{{genre.id}}</td>
+      <td>{{genre.name}}</td>
+    </tr>
+  </table>
+</div>

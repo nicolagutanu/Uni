@@ -1,0 +1,52 @@
+body {
+  background-color: #f2e6ff;
+}
+
+.error {
+  font-size: 16px;
+  padding: 2px;
+  text-align: center;
+}
+
+#bigMenu {
+  margin: 160px auto;
+  background-color: #e6ccff;
+  border: 2px solid black;
+  width: 350px;
+  height: 350px;
+  margin-bottom: 300px;
+}
+
+form {
+  padding-top: 30px;
+}
+
+label {
+  margin-left: 70px;
+  font-size: 16px;
+}
+
+#submitButton {
+  margin-left: 130px;
+  margin-top: 10px;
+}
+
+input {
+  margin-left: 70px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  height: 150px;
+  width: 300px;
+  margin-top: 50px;
+}
+
+th, td {
+  border: 2px solid black;
+  font-size: 16px;
+  background-color: white;
+}
