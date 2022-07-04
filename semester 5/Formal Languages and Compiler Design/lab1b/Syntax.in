@@ -1,0 +1,22 @@
+Syntactic rules:
+	type = "int"|"char"|"string"|"boolean"
+	relation = "<"|">"|"<="|">="|"=="|"<>"
+	
+	declaration = TYPE identifier ";"
+	list_declaration = "list[" TYPE "]" identifier ";"
+	
+	input = "read" identifier";"
+	output = "write" identifier ";"
+	return = "return" (identifier | const_int | const_char | const_string | const_list) ";"
+	
+	assignment = identifier "=" (identifier | const_int | const_char | const_string | const_list) ";"
+	
+	ifstmt = "check" condition ":" {stmt} ";otherwise:" {stmt} ";"
+	condition = identifier RELATION identifier;
+	stmt = assignment | input | output | return;
+	
+	loop = "go from" (TYPE assignment | identifier) "to" (identifier | const_int) ":" {stmt} ";"
+	
+	function = "function" identifier "("params"):" {declaration|list_declaration|input|output|assignment|ifstmt|loop|return}
+	params = (declaration|list_declaration) | (declaration|list_declaration) "," params
+	program = {function}
