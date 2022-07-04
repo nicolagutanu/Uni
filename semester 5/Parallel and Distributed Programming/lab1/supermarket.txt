@@ -1,0 +1,46 @@
+1. SUPERMARKET:
+	class Product: 
+		Name: String
+		Price: int
+		Quantity: int
+		Lock: object
+
+each thread: 
+	product(random), 
+	quantity(check availability), 
+	lock(mutex), 
+	buy(receipt: total), 
+	unlock, 
+	sleep
+
+Checker:
+	lock all products
+	check consistency
+	unlock all products
+	sleep(random miliseconds)
+	
+	
+	
+2. BANK
+	Account:
+		Lock: object
+		
+each thread:
+	lock Account from
+	lock Account to
+	
+	
+	
+	
+3. this mine
+	Primary variables: known values
+	Secondary variables: sum of primary and/or secondary vars.
+	we have a TREE -> lista de vecini, matrice de adiacenta
+
+each thread: 
+	modify P2=5 (calculate difference and propagate result: initially 2 => +3)
+	block path starting from leaf
+	go through the tree and add the difference
+	
+	
+number of threads given as input
