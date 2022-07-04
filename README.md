@@ -5,7 +5,7 @@
 
 ## **2nd semester**
 - Data Structures and Algorithms
--Graph Algorithms
+- Graph Algorithms
 - OOP
 
 ## **3rd semester**
