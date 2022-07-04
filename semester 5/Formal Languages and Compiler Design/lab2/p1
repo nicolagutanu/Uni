@@ -1,0 +1,8 @@
+function prime(int a):
+    check a == 0:
+        return false;
+    check a == 1:
+        return false;
+    go from int d = 2 to a/2:
+        check a/d == 0:
+            return false;

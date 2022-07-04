@@ -1,0 +1,5 @@
+function sum(list[int] a):
+    int s = 0;
+    go from int i = 0 to length(a):
+        s = s + a[i];
+    return s;
